@@ -42,7 +42,8 @@ public class Main {
         i = sc.nextInt();
         }while (i == 0);
 
+        System.out.println("Thanks and bye!");
         System.out.println("The End!");
-        System.out.println("The End!!!!");
+        sc.close();
     }
 }
