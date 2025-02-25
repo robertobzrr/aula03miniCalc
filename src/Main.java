@@ -46,22 +46,3 @@ public class Main {
         System.out.println("The End!!!!");
     }
 }
-
-
-
-
-      /*      case 2:
-                n.sub();
-                System.out.println("The subtration result: "+ n.sub);
-                break;
-
-            case 3:
-                n.mult();
-                System.out.println("The multiplication result: "+ n.mult);
-                break;
-
-            case 4:
-                n.div();
-                System.out.println("The division result: "+ n.div);
-                break;
-*/

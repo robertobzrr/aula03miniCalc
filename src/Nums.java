@@ -25,28 +25,4 @@ public double div(double num1, double num2){
     return divR = num1 / num2;
 }
 
-
-/*
-    double add;
-    public void add(){
-        add = num1 + num2;
-    }
-
-
-    double sub;
-    public void sub(){
-        sub = num1 - num2;
-    }
-
-
-    double mult;
-    public void mult(){
-        mult = num1 * num2;
-    }
-
-
-    double div;
-    public void div(){
-        div = num1 / num2;
-    }*/
 }
