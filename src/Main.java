@@ -37,7 +37,7 @@ public class Main {
                         break;
 
                 }
-
+        String Paper;            
         System.out.println("[0] if you want to continue");
         i = sc.nextInt();
         }while (i == 0);
@@ -47,3 +47,4 @@ public class Main {
         sc.close();
     }
 }
+
