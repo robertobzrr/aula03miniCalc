@@ -37,11 +37,7 @@ public class Main {
                         break;
 
                 }
-        String Paper;
-        String Paper1; 
-        String Paper2;
-        
-        
+
         System.out.println("[0] if you want to continue");
         i = sc.nextInt();
         }while (i == 0);
