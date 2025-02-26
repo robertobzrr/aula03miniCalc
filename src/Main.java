@@ -10,10 +10,10 @@ public class Main {
         do{
 
         System.out.println("Write one number: ");
-        n.num1 = sc.nextInt();
+        n.n1 = sc.nextInt();
 
         System.out.println("Write another number: ");
-        n.num2 = sc.nextInt();
+        n.n2 = sc.nextInt();
 
         System.out.println("Choose what you want to do with the 2 numbers:\n[1] Addition\n[2] Subtraction\n[3] Multiplication\n[4] Divison");
 
@@ -21,19 +21,19 @@ public class Main {
         int calc = sc.nextInt();
         switch (calc) {
             case 1:
-                System.out.println("The addition result: " + n.add(n.num1, n.num2));
+                System.out.println("The addition result: " + n.add(n.n1, n.n2));
                 break;
 
             case 2:
-                System.out.println("The subtration result: " + n.sub(n.num1, n.num2));
+                System.out.println("The subtration result: " + n.sub(n.n1, n.n2));
                 break;
 
             case 3:
-                System.out.println("The multiplication result: " + n.multi(n.num1, n.num2));
+                System.out.println("The multiplication result: " + n.multi(n.n1, n.n2));
                 break;
 
             case 4:
-                System.out.println("The division result: " + n.div(n.num1, n.num2));
+                System.out.println("The division result: " + n.div(n.n1, n.n2));
                 break;
 
         }
